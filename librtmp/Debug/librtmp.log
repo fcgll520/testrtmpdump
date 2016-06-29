@@ -1,0 +1,194 @@
+﻿生成启动时间为 2016/6/29 14:08:07。
+     1>项目“D:\xuri\vs2008\rtmpdump_dll\librtmp\librtmp.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LIBRTMP_EXPORTS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt amf.c hashswf.c log.c parseurl.c rtmp.c
+         rtmp.c
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\errno.h(132): warning C4005: “EWOULDBLOCK”: 宏重定义
+                 d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp_sys.h(40) : 参见“EWOULDBLOCK”的前一个定义
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\handshake.h(706): warning C4101: “ip”: 未引用的局部变量
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\handshake.h(1081): warning C4101: “ip”: 未引用的局部变量
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(415): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(720): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(253) : 参见“stricmp”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(736): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(253) : 参见“stricmp”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(803): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(839): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(885): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850) : 参见“inet_addr”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(888): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2238) : 参见“gethostbyname”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(920): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(168) : 参见“strerror”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(2505): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(2551): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(2565): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(2641): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(2663): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : 参见“strncpy”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(2664): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : 参见“strncpy”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(2671): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : 参见“strncpy”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(2672): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : 参见“strncpy”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(2699): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(2731): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(2763): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(2764): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(2823): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(2847): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : 参见“strncpy”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(2848): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : 参见“strncpy”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(2855): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : 参见“strncpy”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(2856): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : 参见“strncpy”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(3269): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(3273): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(3277): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(3282): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(3286): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(4280): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(168) : 参见“strerror”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(4420): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(4453): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(255) : 参见“strnicmp”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp.c(4963): warning C4018: “>”: 有符号/无符号不匹配
+         parseurl.c
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\errno.h(132): warning C4005: “EWOULDBLOCK”: 宏重定义
+                 d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp_sys.h(40) : 参见“EWOULDBLOCK”的前一个定义
+     1>d:\xuri\vs2008\rtmpdump_dll\include\stdint.h(177): warning C4005: “SIZE_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\limits.h(81) : 参见“SIZE_MAX”的前一个定义
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\parseurl.c(58): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(255) : 参见“strnicmp”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\parseurl.c(60): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(255) : 参见“strnicmp”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\parseurl.c(62): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(255) : 参见“strnicmp”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\parseurl.c(64): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(255) : 参见“strnicmp”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\parseurl.c(66): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(255) : 参见“strnicmp”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\parseurl.c(68): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(255) : 参见“strnicmp”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\parseurl.c(70): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(255) : 参见“strnicmp”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\parseurl.c(253): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\parseurl.c(260): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\parseurl.c(276): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : 参见“sscanf”的声明
+         log.c
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\errno.h(132): warning C4005: “EWOULDBLOCK”: 宏重定义
+                 d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp_sys.h(40) : 参见“EWOULDBLOCK”的前一个定义
+     1>d:\xuri\vs2008\rtmpdump_dll\include\stdint.h(177): warning C4005: “SIZE_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\limits.h(81) : 参见“SIZE_MAX”的前一个定义
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\log.c(52): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : 参见“_vsnprintf”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\log.c(188): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : 参见“_vsnprintf”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\log.c(213): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : 参见“_vsnprintf”的声明
+         hashswf.c
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\errno.h(132): warning C4005: “EWOULDBLOCK”: 宏重定义
+                 d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp_sys.h(40) : 参见“EWOULDBLOCK”的前一个定义
+     1>d:\xuri\vs2008\rtmpdump_dll\include\stdint.h(177): warning C4005: “SIZE_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\limits.h(81) : 参见“SIZE_MAX”的前一个定义
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\hashswf.c(98): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(255) : 参见“strnicmp”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\hashswf.c(120): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : 参见“strncpy”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\hashswf.c(130): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850) : 参见“inet_addr”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\hashswf.c(133): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2238) : 参见“gethostbyname”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\hashswf.c(145): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\hashswf.c(147): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\hashswf.c(148): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\hashswf.c(242): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(255) : 参见“strnicmp”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\hashswf.c(248): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(255) : 参见“strnicmp”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\hashswf.c(251): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\hashswf.c(408): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(255) : 参见“strnicmp”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\hashswf.c(422): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.inl(112) : 参见“localtime”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\hashswf.c(443): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.inl(99) : 参见“gmtime”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\hashswf.c(446): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\hashswf.c(474): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(462) : 参见“getenv”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\hashswf.c(476): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(462) : 参见“getenv”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\hashswf.c(501): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\hashswf.c(503): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\hashswf.c(557): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : 参见“strncpy”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\hashswf.c(616): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\hashswf.c(622): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(168) : 参见“strerror”的声明
+         amf.c
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\errno.h(132): warning C4005: “EWOULDBLOCK”: 宏重定义
+                 d:\xuri\vs2008\rtmpdump_dll\librtmp\rtmp_sys.h(40) : 参见“EWOULDBLOCK”的前一个定义
+     1>d:\xuri\vs2008\rtmpdump_dll\include\stdint.h(177): warning C4005: “SIZE_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\limits.h(81) : 参见“SIZE_MAX”的前一个定义
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\amf.c(829): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\amf.c(853): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\amf.c(857): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\amf.c(861): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\amf.c(865): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\xuri\vs2008\rtmpdump_dll\librtmp\amf.c(868): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LIBRTMP_EXPORTS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\xuri\vs2008\rtmpdump_dll\Debug\librtmp.lib" ssleay32.lib libeay32.lib zdll.lib winmm.lib /LIBPATH:../lib /NOLOGO /NODEFAULTLIB:libcmtd.lib Debug\amf.obj
+         Debug\hashswf.obj
+         Debug\log.obj
+         Debug\parseurl.obj
+         Debug\rtmp.obj
+         Debug\stdafx.obj
+     1>winmm.lib(WINMM.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR 已在 zdll.lib(zlib1.dll) 中定义；已忽略第二个定义
+     1>winmm.lib(WINMM.dll) : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+         librtmp.vcxproj -> D:\xuri\vs2008\rtmpdump_dll\Debug\librtmp.lib
+     1>已完成生成项目“D:\xuri\vs2008\rtmpdump_dll\librtmp\librtmp.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.50
